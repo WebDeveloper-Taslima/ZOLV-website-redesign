@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZOLV™ | Ultra-Thin Dissolving Oral Films — Next-Gen Bioavailability</title>
+  <meta name="description" content="ZOLV is the future of wellness. Ultra-thin oral strips that dissolve on your tongue in 3 seconds. 30 pocket-size strips per flip-top pack. Energy, Sleep, Focus, NAD+. Small Strip. Big Plans.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-energy" data-current-sku="energy">
+
+  <!-- ================= TOP NOTIFICATION BAR ================= -->
+  <div class="top-announcement">
+    <div class="container announcement-inner">
+      <span class="announcement-pill">FREE WORLDWIDE EXPRESS</span>
+      <span class="announcement-text">Orders over $45 ship free • <strong>30-Day Peak State Guarantee</strong></span>
+      <span class="ritual-tag">PEEL. PLACE. ZOLV.</span>
+      <a href="#bundle-builder" class="announcement-link">Build 4-Pack & Save 25% →</a>
+      <div class="top-nav-shortcuts">
+        <a href="brand-guide.html" target="_blank" class="brand-guide-badge" title="View Client Logo Redesign & Packaging Blueprint">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          Brand & Packaging Blueprint
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MAIN NAVIGATION ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Logo Redesign (Vector SVG) -->
+      <a href="#" class="brand-logo" aria-label="ZOLV Home">
+        <div class="logo-wrapper">
+          <svg class="zolv-wordmark-svg" viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFFFFF" />
+                <stop offset="100%" stop-color="#E4E4E7" />
+              </linearGradient>
+            </defs>
+            <!-- Z with kinetic speed bevel -->
+            <path d="M4 8.5H38.5V15.5L16.2 33H39V40H4V33L26.5 15.5H4V8.5Z" fill="url(#logoGlow)" />
+            <!-- O with circular precision and subtle internal aperture -->
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M57.5 8C47.8 8 40 15.2 40 24.2C40 33.3 47.8 40.5 57.5 40.5C67.2 40.5 75 33.3 75 24.2C75 15.2 67.2 8 57.5 8ZM57.5 15.8C52.8 15.8 49 19.5 49 24.2C49 28.9 52.8 32.7 57.5 32.7C62.2 32.7 66 28.9 66 24.2C66 19.5 62.2 15.8 57.5 15.8Z" fill="url(#logoGlow)" />
+            <!-- L with clean architectural base -->
+            <path d="M82 8.5H91V33H112V40H82V8.5Z" fill="url(#logoGlow)" />
+            <!-- V with kinetic angle & subtle intentional dissolving micro-particles -->
+            <path d="M117 8.5H126.5L138.5 34.5L150.5 8.5H160L143 40H134L117 8.5Z" fill="url(#logoGlow)" />
+            <!-- Subtle intentional dissolving film micro-particles -->
+            <circle cx="166" cy="10" r="2.2" class="dissolve-particle p1" fill="var(--sku-primary)" />
+            <circle cx="172" cy="14" r="1.6" class="dissolve-particle p2" fill="var(--sku-primary)" />
+            <circle cx="168" cy="19" r="1.2" class="dissolve-particle p3" fill="var(--sku-primary)" />
+            <circle cx="175" cy="22" r="0.9" class="dissolve-particle p4" fill="var(--sku-primary)" />
+          </svg>
+          <span class="tm-mark">®</span>
+        </div>
+        <span class="logo-subline">SMALL STRIP. BIG PLANS.</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="main-nav" id="main-nav">
+        <ul class="nav-links">
+          <li class="has-dropdown">
+            <a href="#products" class="nav-item">The 4 SKUs <span class="badge-sku-count">4</span></a>
+            <div class="nav-dropdown">
+              <a href="#products" class="dropdown-item" onclick="switchSKU('energy')">
+                <span class="sku-dot sku-dot-energy"></span>
+                <div>
+                  <strong>ENERGY</strong>
+                  <span>Citrus Mint • Caffeine + Taurine + B12</span>
+                </div>
+              </a>
+              <a href="#products" class="dropdown-item" onclick="switchSKU('sleep')">
+                <span class="sku-dot sku-dot-sleep"></span>
+                <div>
+                  <strong>SLEEP</strong>
+                  <span>Berry Lavender • Melatonin + GABA + 5-HTP</span>
+                </div>
+              </a>
+              <a href="#products" class="dropdown-item" onclick="switchSKU('focus')">
+                <span class="sku-dot sku-dot-focus"></span>
+                <div>
+                  <strong>FOCUS</strong>
+                  <span>Alpine Matcha • Lion's Mane + Alpha-GPC</span>
+                </div>
+              </a>
+              <a href="#products" class="dropdown-item" onclick="switchSKU('nad')">
+                <span class="sku-dot sku-dot-nad"></span>
+                <div>
+                  <strong>NAD+</strong>
+                  <span>Glacial Yuzu • Pure NMN + Resveratrol</span>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li><a href="#science" class="nav-item">The Science (Buccal vs Gut)</a></li>
+          <li><a href="#packaging-system" class="nav-item">Pocket Packaging</a></li>
+          <li><a href="#comparison" class="nav-item">Why ZOLV vs Cans</a></li>
+          <li><a href="#bundle-builder" class="nav-item highlight-link">Stack & Save</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Play Cinematic Video Button -->
+        <button class="spec-btn video-trigger-btn" onclick="openVideoModal()" title="Watch Cinematic 3D Investor Visualizer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <span>3D Investor Film</span>
+        </button>
+
+        <!-- Logo Design Spec Modal Button -->
+        <button class="spec-btn" id="open-logo-modal-btn" title="Inspect Logo Redesign System & Proportions">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+          <span>Logo Anatomy</span>
+        </button>
+
+        <!-- Sound FX Toggle -->
+        <button class="icon-btn haptic-toggle" id="sound-toggle" aria-label="Toggle haptic audio feedback" title="Haptic Audio">
+          <svg class="audio-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+        </button>
+
+        <!-- Cart Trigger Button -->
+        <button class="cart-trigger" id="cart-trigger" aria-label="Open Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+          <span class="cart-count" id="cart-badge-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="hero">
+    <div class="ambient-glow" id="hero-glow"></div>
+    <div class="noise-overlay"></div>
+
+    <div class="container hero-grid">
+      <!-- Left Hero Column: Copy & Cultural Vibe -->
+      <div class="hero-content">
+        <div class="hero-tag-wrap">
+          <span class="hero-tag">
+            <span class="pulse-led"></span>
+            SOLUTIONS THAT DISSOLVE
+          </span>
+          <span class="hero-subtag">PEEL. PLACE. ZOLV.</span>
+        </div>
+
+        <h1 class="hero-title">
+          SMALL STRIP.<br>
+          <span class="glow-text">BIG PLANS.</span>
+        </h1>
+
+        <p class="hero-description">
+          Ditch bulky cans, chalky powders, and slow-absorbing pills. 
+          <strong>ZOLV</strong> delivers pharmaceutical-grade bioactives through an ultra-thin sublingual film that melts on your tongue in <strong>3 seconds</strong>—entering your bloodstream <strong>5x faster</strong> with zero stomach distress.
+        </p>
+
+        <!-- Hero SKU Switcher Tabs -->
+        <div class="hero-sku-selector">
+          <span class="selector-label">SELECT FORMULATION:</span>
+          <div class="sku-pill-group">
+            <button class="sku-pill active" data-sku="energy" onclick="switchSKU('energy')">
+              <span class="dot"></span>
+              <strong>ENERGY</strong>
+              <small>Caffeine + Taurine + B12</small>
+            </button>
+            <button class="sku-pill" data-sku="sleep" onclick="switchSKU('sleep')">
+              <span class="dot"></span>
+              <strong>SLEEP</strong>
+              <small>Melatonin + GABA + 5-HTP</small>
+            </button>
+            <button class="sku-pill" data-sku="focus" onclick="switchSKU('focus')">
+              <span class="dot"></span>
+              <strong>FOCUS</strong>
+              <small>Lion's Mane + A-GPC</small>
+            </button>
+            <button class="sku-pill" data-sku="nad" onclick="switchSKU('nad')">
+              <span class="dot"></span>
+              <strong>NAD+</strong>
+              <small>150mg Liposomal NMN</small>
+            </button>
+          </div>
+        </div>
+
+        <!-- Call to Action Buttons -->
+        <div class="hero-cta-group">
+          <button class="btn btn-primary" id="hero-add-to-cart-btn" onclick="addCurrentSkuToCart()">
+            <span class="btn-text">Add to Cart — $24</span>
+            <span class="btn-icon">→</span>
+          </button>
+          <a href="#bundle-builder" class="btn btn-secondary">
+            <span>Build 4-Pack Bundle (-25%)</span>
+          </a>
+          <button class="btn btn-outline" id="demo-dissolve-btn" onclick="triggerDissolveModal()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span>Simulate 3s Dissolve</span>
+          </button>
+        </div>
+
+        <!-- Hero Metrics -->
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <div class="metric-val">3s</div>
+            <div class="metric-lbl">Oral Dissolve Time</div>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <div class="metric-val">5X</div>
+            <div class="metric-lbl">Faster Absorption</div>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <div class="metric-val">0</div>
+            <div class="metric-lbl">Sugar & Gut Crash</div>
+          </div>
+          <div class="metric-divider"></div>
+          <div class="metric-item">
+            <div class="metric-val">30</div>
+            <div class="metric-lbl">Pocket Doses</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hero Column: Interactive 3D Packaging Presentation -->
+      <div class="hero-visual">
+        <div class="packaging-stage-wrapper">
+          
+          <div class="packaging-card-3d" id="packaging-3d-card">
+            
+            <!-- Controls to interact with the packaging -->
+            <div class="pack-controls-overlay">
+              <button class="pack-ctrl-btn active" id="btn-view-carton" onclick="setPackView('carton')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                Flip-Top Carton
+              </button>
+              <button class="pack-ctrl-btn" id="btn-view-open" onclick="setPackView('open')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/><rect x="2" y="10" width="20" height="12" rx="2"/></svg>
+                Open: "YOU IN?" (30 Sachets)
+              </button>
+              <button class="pack-ctrl-btn" id="btn-view-sachet" onclick="setPackView('sachet')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="1"/></svg>
+                Foil Sachet & Strip
+              </button>
+            </div>
+
+            <!-- The Render Container for Packaging SVG Mockup -->
+            <div class="pack-render-viewport" id="pack-viewport">
+              <div class="packaging-mockup-wrapper" id="packaging-mockup-graphic">
+                <!-- SVG dynamically rendered via JS depending on current SKU & View -->
+              </div>
+            </div>
+
+            <!-- Pocket Dimensions Callout Pill -->
+            <div class="pocket-scale-badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></svg>
+              <span>75mm × 45mm × 12mm Pocket Box • 30 Foil Sealed Sachets</span>
+            </div>
+          </div>
+
+          <!-- SKU Live Flavor & Nutritional Card -->
+          <div class="sku-spec-floating-card" id="sku-spec-card">
+            <div class="sku-spec-header">
+              <div class="sku-badge-pill" id="sku-spec-badge">ZOLV ENERGY // SKU 01</div>
+              <div class="sku-price-tag">$24.00 <span>(30 strips)</span></div>
+            </div>
+            <div class="sku-spec-flavor" id="sku-spec-flavor">Flavor: <strong>Solar Tangerine Mint</strong></div>
+            <div class="sku-actives-list" id="sku-spec-actives">
+              <!-- Injected via JS -->
+            </div>
+            <div class="sku-card-actions">
+              <button class="btn btn-sm btn-primary w-full" onclick="addCurrentSkuToCart()">Quick Add to Cart</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KINETIC MARQUEE TICKER ================= -->
+  <div class="ticker-wrapper">
+    <div class="ticker-track">
+      <div class="ticker-item">⚡ 3-SECOND ORAL DISSOLVE</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">PEEL. PLACE. ZOLV.</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">SMALL STRIP. BIG PLANS.</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">5X FASTER BUCCAL ABSORPTION</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">30 FOIL-WRAPPED SACHETS</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">ZERO SUGAR • ZERO GUT CRASH</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">THE NEXT RED BULL OF LIFESTYLE WELLNESS</div>
+      <div class="ticker-dot">•</div>
+      <!-- Loop duplicate -->
+      <div class="ticker-item">⚡ 3-SECOND ORAL DISSOLVE</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">PEEL. PLACE. ZOLV.</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">SMALL STRIP. BIG PLANS.</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">5X FASTER BUCCAL ABSORPTION</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">30 FOIL-WRAPPED SACHETS</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">ZERO SUGAR • ZERO GUT CRASH</div>
+      <div class="ticker-dot">•</div>
+      <div class="ticker-item">THE NEXT RED BULL OF LIFESTYLE WELLNESS</div>
+      <div class="ticker-dot">•</div>
+    </div>
+  </div>
+
+  <!-- ================= CINEMATIC INVESTOR 3D SHOWCASE SECTION ================= -->
+  <section class="cinematic-section" id="investor-video">
+    <div class="container">
+      <div class="cinematic-card">
+        <div class="cinematic-content">
+          <span class="section-subtitle">PHOTOREALISTIC 3D VISUALIZATION</span>
+          <h2 class="section-title">THE NEXT GLOBAL LIFESTYLE BRAND</h2>
+          <p class="section-desc">
+            Engineered for cultural relevance and community. Watch the official 3D investor presentation showcasing the pocket-size flip-top carton in photorealistic motion.
+          </p>
+          <div class="video-cta-row">
+            <button class="btn btn-primary btn-lg" onclick="openVideoModal()">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Play 3D Investor Film</span>
+            </button>
+            <span class="video-meta">Ultra-HD Photoreal Cinematic • 1080p</span>
+          </div>
+        </div>
+        <div class="cinematic-poster" onclick="openVideoModal()">
+          <video class="cinematic-preview-loop" autoplay muted loop playsinline poster="client-assets/78A19110-D52A-4275-A603-859BB1B66B5A.png">
+            <source src="client-assets/Premium-photoreal-cinematic-investor-vis.mp4" type="video/mp4">
+          </video>
+          <div class="play-pulse-overlay">
+            <div class="play-btn-circle">▶</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THE CORE 4-SKU PRODUCT COLLECTION ================= -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">THE CORE PRODUCT FAMILY</span>
+        <h2 class="section-title">ENGINEERED FOR HUMAN PERFORMANCE</h2>
+        <p class="section-desc">
+          Four distinct, precision-dosed formulations packaged in our signature pocket-sized flip-top carton. 
+          Individually sealed in nitrogen-flushed foil sachets so your active compounds never degrade.
+        </p>
+      </div>
+
+      <!-- 4 SKU Grid Cards -->
+      <div class="products-grid">
+        
+        <!-- SKU 1: ENERGY -->
+        <div class="product-card" data-sku="energy">
+          <div class="card-accent-bar bar-energy"></div>
+          <div class="card-header">
+            <span class="card-sku-code">SKU 01 // BOOST</span>
+            <span class="card-doses-tag">30 Oral Strips</span>
+          </div>
+          <div class="card-img-wrap" onclick="openProductQuickview('energy')">
+            <div class="card-pack-render" id="thumb-energy"></div>
+            <div class="card-overlay-hover">
+              <span>Inspect Packaging & Formula</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3 class="product-name">ZOLV ENERGY</h3>
+              <div class="product-price">$24</div>
+            </div>
+            <div class="product-flavor-badge flavor-energy">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              Solar Citrus Mint
+            </div>
+            <p class="product-bio">
+              Clean, instantaneous surge without jitter or crash. Green tea caffeine coupled 1:1 with L-Theanine, Taurine and Methylcobalamin B12.
+            </p>
+            <div class="actives-micro-tags">
+              <span class="act-tag">50mg Clean Caffeine</span>
+              <span class="act-tag">Taurine + L-Theanine</span>
+              <span class="act-tag">100% DV Vitamin B12</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary w-full" onclick="addToCart('energy', 1)">
+              Add to Cart — $24
+            </button>
+            <button class="btn btn-sub-toggle" onclick="subscribeAndSave('energy')">
+              Subscribe & Save 20% ($19.20/mo)
+            </button>
+          </div>
+        </div>
+
+        <!-- SKU 2: SLEEP -->
+        <div class="product-card" data-sku="sleep">
+          <div class="card-accent-bar bar-sleep"></div>
+          <div class="card-header">
+            <span class="card-sku-code">SKU 02 // RESTORE</span>
+            <span class="card-doses-tag">30 Oral Strips</span>
+          </div>
+          <div class="card-img-wrap" onclick="openProductQuickview('sleep')">
+            <div class="card-pack-render" id="thumb-sleep"></div>
+            <div class="card-overlay-hover">
+              <span>Inspect Packaging & Formula</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3 class="product-name">ZOLV SLEEP</h3>
+              <div class="product-price">$24</div>
+            </div>
+            <div class="product-flavor-badge flavor-sleep">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+              Midnight Blackberry Lavender
+            </div>
+            <p class="product-bio">
+              Turn down nocturnal cognitive noise. Sublingual micro-dose melatonin bypasses the gut to initiate deep REM architecture within 10 minutes.
+            </p>
+            <div class="actives-micro-tags">
+              <span class="act-tag">3mg Bioactive Melatonin</span>
+              <span class="act-tag">100mg GABA + 5-HTP</span>
+              <span class="act-tag">Tart Cherry + L-Theanine</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary w-full" onclick="addToCart('sleep', 1)">
+              Add to Cart — $24
+            </button>
+            <button class="btn btn-sub-toggle" onclick="subscribeAndSave('sleep')">
+              Subscribe & Save 20% ($19.20/mo)
+            </button>
+          </div>
+        </div>
+
+        <!-- SKU 3: FOCUS -->
+        <div class="product-card" data-sku="focus">
+          <div class="card-accent-bar bar-focus"></div>
+          <div class="card-header">
+            <span class="card-sku-code">SKU 03 // CLARITY</span>
+            <span class="card-doses-tag">30 Oral Strips</span>
+          </div>
+          <div class="card-img-wrap" onclick="openProductQuickview('focus')">
+            <div class="card-pack-render" id="thumb-focus"></div>
+            <div class="card-overlay-hover">
+              <span>Inspect Packaging & Formula</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3 class="product-name">ZOLV FOCUS</h3>
+              <div class="product-price">$24</div>
+            </div>
+            <div class="product-flavor-badge flavor-focus">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/></svg>
+              Cyber Alpine Matcha
+            </div>
+            <p class="product-bio">
+              Flow state on demand. Potent nootropic botanical complex that amplifies acetylcholine neurotransmitters for deep work, coding, gaming, and flow.
+            </p>
+            <div class="actives-micro-tags">
+              <span class="act-tag">Lion's Mane Mushroom</span>
+              <span class="act-tag">Alpha-GPC 99%</span>
+              <span class="act-tag">Bacopa Monnieri</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary w-full" onclick="addToCart('focus', 1)">
+              Add to Cart — $24
+            </button>
+            <button class="btn btn-sub-toggle" onclick="subscribeAndSave('focus')">
+              Subscribe & Save 20% ($19.20/mo)
+            </button>
+          </div>
+        </div>
+
+        <!-- SKU 4: NAD+ -->
+        <div class="product-card" data-sku="nad">
+          <div class="card-accent-bar bar-nad"></div>
+          <div class="card-header">
+            <span class="card-sku-code">SKU 04 // LONGEVITY</span>
+            <span class="card-doses-tag">30 Oral Strips</span>
+          </div>
+          <div class="card-img-wrap" onclick="openProductQuickview('nad')">
+            <div class="card-pack-render" id="thumb-nad"></div>
+            <div class="card-overlay-hover">
+              <span>Inspect Packaging & Formula</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-title-row">
+              <h3 class="product-name">ZOLV NAD+</h3>
+              <div class="product-price">$29</div>
+            </div>
+            <div class="product-flavor-badge flavor-nad">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              Glacial Arctic Yuzu
+            </div>
+            <p class="product-bio">
+              Direct cellular rejuvenation. While oral NMN pills get destroyed by gut microbes, ZOLV sublingual films deliver intact NMN straight to blood capillaries.
+            </p>
+            <div class="actives-micro-tags">
+              <span class="act-tag">150mg Pure NMN</span>
+              <span class="act-tag">Micronized Resveratrol</span>
+              <span class="act-tag">PQQ Mitochondria Shield</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-primary w-full" onclick="addToCart('nad', 1)">
+              Add to Cart — $29
+            </button>
+            <button class="btn btn-sub-toggle" onclick="subscribeAndSave('nad')">
+              Subscribe & Save 20% ($23.20/mo)
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= THE SCIENCE: SUBLINGUAL VS GUT ================= -->
+  <section class="science-section" id="science">
+    <div class="container">
+      <div class="science-grid">
+        <div class="science-visual-col">
+          <div class="bio-diagram-card">
+            <div class="diagram-tag">PHARMACOLOGICAL PATHWAY</div>
+            <h3 class="diagram-title">BUCCAL ABSORPTION VS 1ST PASS METABOLISM</h3>
+            
+            <div class="absorption-stage" id="absorption-stage">
+              <div class="pathway-track track-zolv">
+                <div class="track-header">
+                  <span class="badge-pill bg-green">ZOLV ORAL STRIP (Direct Buccal)</span>
+                  <span class="stat-highlight">98% Intact Delivery • 3 Mins</span>
+                </div>
+                <div class="pathway-graphic">
+                  <div class="path-node node-mouth">
+                    <span class="node-icon">👅</span>
+                    <span class="node-lbl">Tongue / Mucosa</span>
+                  </div>
+                  <div class="path-arrow green-pulse">➔➔➔</div>
+                  <div class="path-node node-bloodstream">
+                    <span class="node-icon">⚡</span>
+                    <span class="node-lbl">Direct Bloodstream</span>
+                  </div>
+                  <div class="path-arrow green-pulse">➔➔➔</div>
+                  <div class="path-node node-brain">
+                    <span class="node-icon">🧠</span>
+                    <span class="node-lbl">Brain / Target</span>
+                  </div>
+                </div>
+                <p class="pathway-note">Bypasses stomach acids & liver enzymes entirely. Zero waste, maximum speed.</p>
+              </div>
+
+              <div class="pathway-track track-pill">
+                <div class="track-header">
+                  <span class="badge-pill bg-gray">TRADITIONAL PILLS & DRINKS (Gut)</span>
+                  <span class="stat-highlight">~20% Delivery • 45-60 Mins</span>
+                </div>
+                <div class="pathway-graphic">
+                  <div class="path-node node-swallow">
+                    <span class="node-icon">💊</span>
+                    <span class="node-lbl">Swallowed Pill</span>
+                  </div>
+                  <div class="path-arrow">➔</div>
+                  <div class="path-node node-stomach">
+                    <span class="node-icon">🧪</span>
+                    <span class="node-lbl">Stomach Acid Loss</span>
+                  </div>
+                  <div class="path-arrow">➔</div>
+                  <div class="path-node node-liver">
+                    <span class="node-icon">🧬</span>
+                    <span class="node-lbl">Liver Breakdown</span>
+                  </div>
+                  <div class="path-arrow">➔</div>
+                  <div class="path-node node-diluted">
+                    <span class="node-icon">📉</span>
+                    <span class="node-lbl">Diluted Effect</span>
+                  </div>
+                </div>
+                <p class="pathway-note">Up to 80% of active molecules are degraded before entering circulation.</p>
+              </div>
+            </div>
+
+            <div class="interactive-dissolve-callout">
+              <button class="btn btn-outline w-full" onclick="triggerDissolveModal()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6z"/></svg>
+                Launch Interactive Tongue Dissolve Simulator
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="science-text-col">
+          <span class="section-subtitle">THE PHARMA-GRADE ADVANTAGE</span>
+          <h2 class="section-title">WHY DRINKING 500ML OF ACIDIC FLUID IS OBSOLETE</h2>
+          <div class="science-points">
+            <div class="point-item">
+              <div class="point-number">01</div>
+              <div class="point-content">
+                <h4>Vascular Mucosal Gateway</h4>
+                <p>The underside of your tongue and oral mucosa are packed with dense capillary networks. ZOLV oral films rapidly hydrate upon salivary contact, transferring bioactives directly into venous circulation.</p>
+              </div>
+            </div>
+            <div class="point-item">
+              <div class="point-number">02</div>
+              <div class="point-content">
+                <h4>Zero Gut Distress or Sluggishness</h4>
+                <p>No carbonated bloat, no artificial sweeteners fermenting in your intestines, and no heavy binders or synthetic capsule shells to break down.</p>
+              </div>
+            </div>
+            <div class="point-item">
+              <div class="point-number">03</div>
+              <div class="point-content">
+                <h4>Precise Nanometer Dispersion</h4>
+                <p>Each 0.05mm film is manufactured via precision slot-die coating, guaranteeing exact milligram uniformity across every single dose. What's on the label is exactly what enters your system.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PACKAGING SYSTEM & SPECS BREAKDOWN ================= -->
+  <section class="packaging-system-section" id="packaging-system">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">HARDWARE & PACKAGING SYSTEM</span>
+        <h2 class="section-title">POCKET-SIZE FLIP-TOP DISPENSER</h2>
+        <p class="section-desc">
+          Crafted to fit alongside your everyday carry items. Ultra-thin, rigid soft-touch exterior with internal moisture barrier and individual foil sachets.
+        </p>
+      </div>
+
+      <div class="pack-showcase-grid">
+        <div class="pack-spec-visual">
+          <div class="dieline-render-box">
+            <div class="spec-callout-layer">
+              <div class="hotspot hotspot-lid" data-tooltip="Spring Flip-Top Latch: Satisfying tactile magnetic click with 'YOU IN?' inside.">
+                <span class="hotspot-pin">1</span>
+                <span class="hotspot-label">Tactile Flip Lid: "YOU IN?"</span>
+              </div>
+              <div class="hotspot hotspot-foil" data-tooltip="Embossed Metallic Foil: Custom SKU-coded Pantone hot stamp.">
+                <span class="hotspot-pin">2</span>
+                <span class="hotspot-label">SKU Foil Stamping</span>
+              </div>
+              <div class="hotspot hotspot-material" data-tooltip="Soft-Touch Matte Finish: 350gsm rigid unbleached SBS board.">
+                <span class="hotspot-pin">3</span>
+                <span class="hotspot-label">Velvet-Touch Black</span>
+              </div>
+              <div class="hotspot hotspot-sachets" data-tooltip="30 Sealed Micro-Sachets: PEEL. PLACE. ZOLV.">
+                <span class="hotspot-pin">4</span>
+                <span class="hotspot-label">30 Sealed Sachets</span>
+              </div>
+            </div>
+
+            <div class="big-carton-svg-wrap" id="big-carton-svg-wrap"></div>
+          </div>
+        </div>
+
+        <div class="pack-specs-info">
+          <div class="spec-card">
+            <h3 class="spec-card-title">INDUSTRIAL DESIGN SPECS</h3>
+            <div class="spec-rows">
+              <div class="spec-row">
+                <span class="spec-key">Carton Dimensions</span>
+                <span class="spec-val">75mm (H) × 45mm (W) × 12mm (D)</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Internal Capacity</span>
+                <span class="spec-val">30 Individually Sealed Oral Strip Sachets</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Sachet Dimensions</span>
+                <span class="spec-val">40mm × 30mm Foil Pouch (Easy-Tear Notch)</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Usage Ritual</span>
+                <span class="spec-val">1. PEEL ➔ 2. PLACE ➔ 3. ZOLV</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Brand Slogan</span>
+                <span class="spec-val">"SMALL STRIP. BIG PLANS."</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Exterior Material</span>
+                <span class="spec-val">FSC-Certified Soft-Touch Velvet Matte Board</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-key">Branding Details</span>
+                <span class="spec-val">Spot UV Raised Wordmark + Metallic Foil</span>
+              </div>
+            </div>
+
+            <div class="edc-scale-comparison">
+              <div class="edc-title">EVERYDAY CARRY SCALE TEST</div>
+              <div class="edc-icons-row">
+                <div class="edc-item">
+                  <div class="edc-box box-phone">iPhone 16</div>
+                  <span>147mm</span>
+                </div>
+                <div class="edc-item">
+                  <div class="edc-box box-zolv active-glow">ZOLV Pack</div>
+                  <span>75mm (Compact)</span>
+                </div>
+                <div class="edc-item">
+                  <div class="edc-box box-airpods">AirPods Pro</div>
+                  <span>45mm</span>
+                </div>
+              </div>
+              <p class="edc-caption">Flatter than your wallet. Smaller than a candy tin. Always in your pocket.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPARISON TABLE: ZOLV VS OLD WAYS ================= -->
+  <section class="comparison-section" id="comparison">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">THE PARADIGM SHIFT</span>
+        <h2 class="section-title">ZOLV VS THE LEGACY LANDSCAPE</h2>
+        <p class="section-desc">See how sublingual dissolving films obliterate outdated pills, sugary cans, and messy powders.</p>
+      </div>
+
+      <div class="table-responsive">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th class="col-feature">FEATURE</th>
+              <th class="col-zolv highlight-col">
+                <div class="th-logo">ZOLV™ FILMS</div>
+                <div class="th-sub">Oral Dissolving Film</div>
+              </th>
+              <th>
+                <div class="th-other">ENERGY DRINKS (CANS)</div>
+                <div class="th-sub">Liquid Cans</div>
+              </th>
+              <th>
+                <div class="th-other">PILLS & CAPSULES</div>
+                <div class="th-sub">Gelatin/Vegetable</div>
+              </th>
+              <th>
+                <div class="th-other">MIXED POWDERS</div>
+                <div class="th-sub">Tub & Shaker</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="feature-name">Absorption Pathway</td>
+              <td class="highlight-col text-green"><strong>Sublingual (Venous)</strong></td>
+              <td>Gastrointestinal (Gut)</td>
+              <td>Gastrointestinal (Gut)</td>
+              <td>Gastrointestinal (Gut)</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Time to Effect</td>
+              <td class="highlight-col text-green"><strong>3 – 5 Minutes</strong></td>
+              <td>25 – 40 Minutes</td>
+              <td>45 – 60 Minutes</td>
+              <td>30 – 45 Minutes</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Bioavailability</td>
+              <td class="highlight-col text-green"><strong>90 – 98%</strong></td>
+              <td>35 – 50%</td>
+              <td>20 – 35%</td>
+              <td>30 – 45%</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Pocket Portability</td>
+              <td class="highlight-col text-green"><strong>30 Doses in Pocket</strong></td>
+              <td>Bulky 16oz Aluminum Can</td>
+              <td>Rattling Plastic Bottle</td>
+              <td>Need Shaker + Water</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Water Required?</td>
+              <td class="highlight-col text-green"><strong>Zero Water Needed</strong></td>
+              <td>Is Liquid (Requires Drinking)</td>
+              <td>Requires Full Glass</td>
+              <td>Requires 16oz Water</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Sugar & Fillers</td>
+              <td class="highlight-col text-green"><strong>0g Sugar • 0 Cal</strong></td>
+              <td>Up to 27g Sugar or Sucralose</td>
+              <td>Microcrystalline Cellulose</td>
+              <td>Silicon Dioxide, Maltodextrin</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Cost Per Dose</td>
+              <td class="highlight-col text-green"><strong>$0.80 / Strip</strong></td>
+              <td>$3.50 – $4.50 / Can</td>
+              <td>$1.20 / Capsule</td>
+              <td>$1.80 / Scoop</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BUNDLE BUILDER: STACK YOUR 4-PACK ================= -->
+  <section class="bundle-section" id="bundle-builder">
+    <div class="container">
+      <div class="bundle-card">
+        <div class="bundle-header">
+          <div class="bundle-badge">⚡ THE ULTIMATE DISCOVERY STACK</div>
+          <h2 class="bundle-title">BUILD YOUR 4-PACK & SAVE 25%</h2>
+          <p class="bundle-desc">
+            Mix and match any 4 flip-top cartons (120 oral strips total). Receive our limited-edition <strong>Matte Carbon Travel Tin</strong> and free global express shipping.
+          </p>
+        </div>
+
+        <div class="bundle-builder-interface">
+          <div class="bundle-slots-grid">
+            <div class="bundle-slot" id="slot-1" onclick="focusSlot(1)">
+              <div class="slot-num">SLOT 01</div>
+              <div class="slot-content" id="slot-1-content">
+                <span class="slot-empty">+ Choose SKU</span>
+              </div>
+            </div>
+            <div class="bundle-slot" id="slot-2" onclick="focusSlot(2)">
+              <div class="slot-num">SLOT 02</div>
+              <div class="slot-content" id="slot-2-content">
+                <span class="slot-empty">+ Choose SKU</span>
+              </div>
+            </div>
+            <div class="bundle-slot" id="slot-3" onclick="focusSlot(3)">
+              <div class="slot-num">SLOT 03</div>
+              <div class="slot-content" id="slot-3-content">
+                <span class="slot-empty">+ Choose SKU</span>
+              </div>
+            </div>
+            <div class="bundle-slot" id="slot-4" onclick="focusSlot(4)">
+              <div class="slot-num">SLOT 04</div>
+              <div class="slot-content" id="slot-4-content">
+                <span class="slot-empty">+ Choose SKU</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sku-selector-chips">
+            <span class="chips-title">TAP TO ADD TO STACK:</span>
+            <div class="chips-row">
+              <button class="chip-btn chip-energy" onclick="addSkuToBundle('energy')">
+                <span>+ ENERGY</span> (Citrus Mint)
+              </button>
+              <button class="chip-btn chip-sleep" onclick="addSkuToBundle('sleep')">
+                <span>+ SLEEP</span> (Berry Lavender)
+              </button>
+              <button class="chip-btn chip-focus" onclick="addSkuToBundle('focus')">
+                <span>+ FOCUS</span> (Alpine Matcha)
+              </button>
+              <button class="chip-btn chip-nad" onclick="addSkuToBundle('nad')">
+                <span>+ NAD+</span> (Arctic Yuzu)
+              </button>
+            </div>
+            <button class="quick-preset-btn" onclick="fillRecommendedBundle()">
+              ⚡ Auto-Fill Balanced Daily Protocol (1 Energy + 1 Focus + 1 Sleep + 1 NAD+)
+            </button>
+          </div>
+
+          <div class="bundle-checkout-bar">
+            <div class="bundle-price-col">
+              <div class="orig-price"><del id="bundle-orig-price">$96.00</del> <span class="save-tag">SAVE 25%</span></div>
+              <div class="final-price" id="bundle-final-price">$72.00</div>
+              <div class="per-strip-price">Just $0.60 per dose (120 strips)</div>
+            </div>
+            <div class="bundle-cta-col">
+              <button class="btn btn-primary btn-lg" id="add-bundle-to-cart-btn" onclick="addBundleToCart()">
+                <span>Add 4-Pack to Cart & Free Travel Tin</span>
+                <span class="arrow">→</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CULTURAL RELEVANCE & COMMUNITY (RED BULL AMBITION) ================= -->
+  <section class="culture-section" id="culture">
+    <div class="container">
+      <div class="culture-header">
+        <span class="section-subtitle">THE CULTURE OF SPEED & CLARITY</span>
+        <h2 class="section-title">BUILT FOR CREATORS, ATHLETES & BIOHACKERS</h2>
+        <p class="section-desc">
+          ZOLV is redefining how high-performers fuel their days. From motorsport pit lanes to late-night coding sprints and marathon finish lines.
+        </p>
+      </div>
+
+      <div class="culture-grid">
+        <div class="culture-card card-athlete">
+          <div class="culture-overlay"></div>
+          <div class="culture-badge">ENDURANCE ATHLETICS</div>
+          <div class="culture-quote">
+            "Carrying liquids or energy gels in a 50k trail run causes gut cramps. Sliding a ZOLV Energy strip onto my tongue at mile 28 was an instant lifeline."
+          </div>
+          <div class="culture-author">
+            <strong>MARCUS V.</strong>
+            <span>Ultra-Trail Athlete & Peak Runner</span>
+          </div>
+        </div>
+
+        <div class="culture-card card-creator">
+          <div class="culture-overlay"></div>
+          <div class="culture-badge">NIGHT CREATIVE SESSIONS</div>
+          <div class="culture-quote">
+            "When you're editing video or coding until 3 AM, you don't want coffee jitters. ZOLV Focus locks me straight into deep work without the adrenaline crash."
+          </div>
+          <div class="culture-author">
+            <strong>ELENA R.</strong>
+            <span>Creative Director & AI Engineer</span>
+          </div>
+        </div>
+
+        <div class="culture-card card-recovery">
+          <div class="culture-overlay"></div>
+          <div class="culture-badge">RECOVERY & SLEEP ARCHITECTURE</div>
+          <div class="culture-quote">
+            "I travel across four timezones weekly. Popping one ZOLV Sleep film before wheels-up gives me uninterrupted REM sleep and zero grogginess when landing."
+          </div>
+          <div class="culture-author">
+            <strong>KAI CHEN</strong>
+            <span>Venture Partner & Biohacker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ SECTION ================= -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">QUESTIONS & ANSWERS</span>
+        <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+      </div>
+
+      <div class="faq-accordion-group">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How do I take a ZOLV oral strip?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Remember the simple 3-step ritual: <strong>1. PEEL</strong> open one sachet, <strong>2. PLACE</strong> on your tongue or under your tongue, and <strong>3. ZOLV</strong> (let dissolve). It starts melting in 3 seconds. Zero water or swallowing needed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How fast does it take effect compared to pills?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Traditional capsules and pills require 45 to 60 minutes because they must pass through stomach acid and liver first-pass metabolism. ZOLV enters the sublingual capillary bed instantly, with noticeable onset in 3 to 5 minutes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How many strips are in each flip-top carton?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Each compact flip-top carton contains <strong>30 individually sealed oral strip sachets</strong>. The pocket-size dimensions (75mm × 45mm × 12mm) make it easy to carry in your pocket, bag, or gym shorts all day.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can I stack different formulas throughout the day?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Our 4 SKUs are designed as a synergistic 24-hour protocol: Take <strong>ENERGY</strong> in the morning, <strong>FOCUS</strong> during midday deep work, <strong>NAD+</strong> for cellular longevity, and <strong>SLEEP</strong> 20 minutes before bedtime.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is ZOLV sugar-free and keto-friendly?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>100% sugar-free, calorie-free, vegan, gluten-free, and non-GMO. We use natural fruit oils and plant-based stevia rebaudiana to deliver delicious, clean flavor without spiking insulin.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand-col">
+        <a href="#" class="brand-logo">
+          <span class="zolv-text">ZOLV</span>
+          <span class="tm-mark">®</span>
+        </a>
+        <p class="footer-tagline">
+          The next-generation sublingual bio-film brand. Small Strip. Big Plans. Solutions That Dissolve. 
+        </p>
+        <div class="footer-links-quick">
+          <a href="brand-guide.html" target="_blank" class="blueprint-link-btn">
+            ⚡ Open Client Brand Identity & Packaging Blueprint Page →
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4>PRODUCTS</h4>
+        <ul>
+          <li><a href="#products" onclick="switchSKU('energy')">ZOLV Energy (Caffeine + Taurine)</a></li>
+          <li><a href="#products" onclick="switchSKU('sleep')">ZOLV Sleep (Melatonin + GABA)</a></li>
+          <li><a href="#products" onclick="switchSKU('focus')">ZOLV Focus (Lion's Mane)</a></li>
+          <li><a href="#products" onclick="switchSKU('nad')">ZOLV NAD+ (Pure NMN)</a></li>
+          <li><a href="#bundle-builder">4-Pack Bundle (-25%)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4>SCIENCE & TECH</h4>
+        <ul>
+          <li><a href="#science">Buccal Absorption Pathway</a></li>
+          <li><a href="#packaging-system">Flip-Top Pocket Packaging</a></li>
+          <li><a href="#hero" onclick="triggerDissolveModal()">Dissolve Simulator</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4>CLIENT & CONTEST SPECS</h4>
+        <ul>
+          <li><a href="brand-guide.html#logo-system">Logo Redesign System</a></li>
+          <li><a href="brand-guide.html#packaging-blueprint">30-Strip Packaging Dieline</a></li>
+          <li><a href="brand-guide.html#color-system">4-SKU Color Architecture</a></li>
+          <li><a href="brand-guide.html#competitors">Competitor Analysis (5TRIP / Daps / Sleep or Die)</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 ZOLV™ Bio-Films Inc. All rights reserved. The next Red Bull of oral strips.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Lab Certificates (COA)</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= STICKY BOTTOM BAR ================= -->
+  <div class="sticky-cta-bar" id="sticky-bar">
+    <div class="container sticky-bar-inner">
+      <div class="sticky-sku-info">
+        <span class="sticky-sku-name" id="sticky-sku-name">ZOLV ENERGY</span>
+        <span class="sticky-sku-price" id="sticky-sku-price">$24.00</span>
+      </div>
+      <div class="sticky-actions">
+        <button class="btn btn-primary btn-sm" onclick="addCurrentSkuToCart()">
+          Add to Cart
+        </button>
+        <a href="#bundle-builder" class="btn btn-secondary btn-sm">
+          Bundle & Save 25%
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CART DRAWER ================= -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay" onclick="closeCart()"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <div class="cart-header-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+        <h3>YOUR CART (<span id="cart-item-count">0</span>)</h3>
+      </div>
+      <button class="close-drawer-btn" onclick="closeCart()" aria-label="Close cart">✕</button>
+    </div>
+
+    <div class="shipping-progress-wrap">
+      <div class="shipping-status-text" id="shipping-status-text">
+        Add <strong>$21.00</strong> more to unlock <strong>FREE WORLDWIDE SHIPPING</strong>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="shipping-progress-fill" style="width: 53%;"></div>
+      </div>
+    </div>
+
+    <div class="cart-items-container" id="cart-items-container">
+      <div class="empty-cart-state" id="empty-cart-state">
+        <div class="empty-cart-icon">🛒</div>
+        <p>Your pocket pack is empty.</p>
+        <button class="btn btn-outline btn-sm" onclick="addRecommendedItem()">Add Energy Pack ($24)</button>
+      </div>
+    </div>
+
+    <div class="cart-drawer-footer" id="cart-drawer-footer">
+      <div class="cart-summary-row">
+        <span>Subtotal</span>
+        <span class="summary-amount" id="cart-subtotal">$0.00</span>
+      </div>
+      <div class="cart-summary-row shipping-row">
+        <span>Worldwide Shipping</span>
+        <span class="shipping-val" id="cart-shipping-val">Calculated at checkout</span>
+      </div>
+      <div class="cart-checkout-btn-wrap">
+        <button class="btn btn-primary w-full btn-lg" onclick="simulateCheckout()">
+          <span>PROCEED TO SECURE CHECKOUT</span>
+          <span class="arrow">➔</span>
+        </button>
+      </div>
+      <div class="cart-guarantees">
+        <span>🔒 256-Bit SSL Encryption</span>
+        <span>•</span>
+        <span>📦 30-Day Money-Back Guarantee</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= CINEMATIC 3D VIDEO MODAL ================= -->
+  <div class="modal-overlay" id="video-modal" onclick="closeVideoModal(event)">
+    <div class="modal-dialog modal-xl" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <span class="modal-sub">PHOTOREALISTIC 3D INVESTOR VISUALIZATION</span>
+          <h3 class="modal-title">ZOLV™ CINEMATIC PRODUCT SHOWCASE</h3>
+        </div>
+        <button class="close-modal-btn" onclick="closeVideoModal()">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 1rem;">
+        <div class="modal-video-container">
+          <video id="full-investor-video" controls playsinline poster="client-assets/78A19110-D52A-4275-A603-859BB1B66B5A.png" style="width: 100%; border-radius: 8px; background: #000;">
+            <source src="client-assets/Premium-photoreal-cinematic-investor-vis.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; padding: 0 0.5rem; font-size: 0.82rem; color: var(--color-text-muted);">
+          <span>Original Client 3D Render • 60fps Investor Vision</span>
+          <span style="color: var(--sku-primary); font-weight: 700;">SMALL STRIP. BIG PLANS.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LOGO ANATOMY MODAL ================= -->
+  <div class="modal-overlay" id="logo-modal" onclick="closeLogoModal(event)">
+    <div class="modal-dialog modal-lg" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-sub">CLIENT DESIGN DELIVERABLE</span>
+          <h3 class="modal-title">ZOLV™ LOGO REDESIGN & ANATOMY SYSTEM</h3>
+        </div>
+        <button class="close-modal-btn" onclick="closeLogoModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-intro">
+          Fulfilling requirement <strong>#1 (Logo Redesign)</strong>: Elevated the existing ZOLV wordmark with a razor-sharp, balanced geometric execution. The dissolving detail is subtle, intentional, and positioned on the terminal apex of the 'V' representing sublingual mucosal micro-particles.
+        </p>
+
+        <div class="logo-preview-box">
+          <div class="logo-render-large">
+            <svg class="modal-zolv-svg" viewBox="0 0 280 64" fill="none">
+              <path d="M10 12H58V21.5L26.5 45.5H58V55H10V45.5L41.5 21.5H10V12Z" fill="#FFFFFF" />
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M85 11C71.5 11 60.5 21 60.5 33.5C60.5 46 71.5 56 85 56C98.5 56 109.5 46 109.5 33.5C109.5 21 98.5 11 85 11ZM85 21.8C78.4 21.8 73 27 73 33.5C73 40 78.4 45.2 85 45.2C91.6 45.2 97 40 97 33.5C97 27 91.6 21.8 85 21.8Z" fill="#FFFFFF" />
+              <path d="M118 12H130.5V45.5H159V55H118V12Z" fill="#FFFFFF" />
+              <path d="M165 12H178L194.5 48L211 12H224L201 55H188L165 12Z" fill="#FFFFFF" />
+              <!-- Dissolution Micro-Particles (Subtle & Intentional) -->
+              <circle cx="232" cy="14" r="3.2" fill="#FF5500" />
+              <circle cx="240" cy="20" r="2.3" fill="#FF5500" />
+              <circle cx="235" cy="27" r="1.7" fill="#FF5500" />
+              <circle cx="244" cy="31" r="1.2" fill="#FF5500" />
+            </svg>
+          </div>
+          <div class="logo-grid-specs">
+            <span>• 1:1 Aspect Geometric Grid</span>
+            <span>• Micro-Bevel Kerning</span>
+            <span>• Sublingual Dissolving Gradient Array</span>
+          </div>
+        </div>
+
+        <div class="colorways-row">
+          <div class="colorway-item bg-dark">
+            <span class="cw-name">Primary Dark Luxury</span>
+            <span class="cw-hex">#0A0A0E + Pure White</span>
+          </div>
+          <div class="colorway-item bg-light">
+            <span class="cw-name">High-Key Minimalist</span>
+            <span class="cw-hex">#F5F5F7 + Obsidian</span>
+          </div>
+          <div class="colorway-item bg-metallic">
+            <span class="cw-name">Foil Holographic Stamping</span>
+            <span class="cw-hex">Spot UV + Prismatic Silver</span>
+          </div>
+        </div>
+
+        <div class="modal-footer-cta">
+          <a href="brand-guide.html" target="_blank" class="btn btn-primary w-full">
+            Open Full Brand Identity & Packaging Dieline Guide →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= DISSOLVE SIMULATION MODAL ================= -->
+  <div class="modal-overlay" id="dissolve-modal" onclick="closeDissolveModal(event)">
+    <div class="modal-dialog" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <span class="modal-sub">LABORATORY BIO-PHYSICS</span>
+          <h3 class="modal-title">ORAL FILM 3-SECOND DISSOLVE SIMULATOR</h3>
+        </div>
+        <button class="close-modal-btn" onclick="closeDissolveModal()">✕</button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Watch how saliva instantly hydrates the ultra-thin film matrix, diffusing active bioactives into sublingual capillaries.</p>
+        
+        <div class="tongue-sim-stage">
+          <div class="tongue-surface">
+            <div class="strip-film-item" id="sim-strip">
+              <span class="strip-logo-text">ZOLV</span>
+            </div>
+            <div class="dissolve-particles-container" id="sim-particles"></div>
+          </div>
+        </div>
+
+        <div class="sim-timer-box">
+          <div class="timer-display" id="sim-timer">0.00s</div>
+          <div class="timer-status" id="sim-status">Ready to place on tongue</div>
+        </div>
+
+        <div class="sim-actions">
+          <button class="btn btn-primary" id="start-sim-btn" onclick="runDissolveSimulation()">
+            ▶ Start 3-Second Dissolve
+          </button>
+          <button class="btn btn-secondary" onclick="resetDissolveSimulation()">
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script link -->
+  <script src="app.js"></script>
+</body>
+</html>
